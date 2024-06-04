@@ -46,11 +46,11 @@ const HeroContent = () => {
           variants={slideInFromLeft(0.8)}
           className="text-lg text-gray-400 my-5 max-w-[600px]"
         >
-          Hi 👋! My name is Jesus Rosario and I'm a student at NJIT. 
-          I'm a Frontend Developer passionate about crafting beautiful 
+          Hi 👋! My name is Jesus Rosario and I&apos;m a student at NJIT. 
+          I&apos;m a Frontend Developer passionate about crafting beautiful 
           and functional websites. My experience includes React, 
-          Next.js, and Tailwind CSS, but that's just the beginning. 
-          I'm continually seeking new opportunities to learn, grow as a 
+          Next.js, and Tailwind CSS, but that&apos;s just the beginning. 
+          I&apos;m continually seeking new opportunities to learn, grow as a 
           developer, and broaden my horizons. Feel free to reach out if 
           you&apos;d like to connect! or know more about my abilities!
         </motion.p>
