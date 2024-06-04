@@ -24,7 +24,7 @@ const HeroContent = () => {
         >
           <SparklesIcon className="text-[#b49bff] mr-[10px] h-5 w-5" />
           <h1 className="Welcome-text text-[13px]">
-            Jesus' Frontend Developer Portfolio
+            Jesus&apos; Frontend Developer Portfolio
           </h1>
         </motion.div>
 
@@ -52,7 +52,7 @@ const HeroContent = () => {
           Next.js, and Tailwind CSS, but that's just the beginning. 
           I'm continually seeking new opportunities to learn, grow as a 
           developer, and broaden my horizons. Feel free to reach out if 
-          you'd like to connect! or know more about my abilities!
+          you&apos;d like to connect! or know more about my abilities!
         </motion.p>
         <motion.a
           variants={slideInFromLeft(1)}
