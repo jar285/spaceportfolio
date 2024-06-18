@@ -32,8 +32,8 @@ export const Skill_data = [
       height: 80,
     },
     {
-      skill_name: "Redux",
-      Image: "/redux.png",
+      skill_name: "Vercel",
+      Image: "/vercel.png",
       width: 80,
       height: 80,
     },
@@ -94,6 +94,11 @@ export const Skill_data = [
       url: "https://wa.link/3w36c9",
     },
     {
+      name: "Linkedin",
+      src: "/linkedin.svg",
+      url: "www.linkedin.com/in/jesus-adonis-rosario-vargas-371508255",
+    },
+    {
       name: "Github",
       src: "/git-icon.svg",
       url: "https://github.com/jar285",
@@ -128,10 +133,10 @@ export const Skill_data = [
       height: 80,
     },
     {
-      skill_name: "Material UI",
-      Image: "/mui.png",
-      width: 80,
-      height: 80,
+      skill_name: "Photo Shop",
+      Image: "/Photoshop.png",
+      width: 100,
+      height: 100,
     },
     {
       skill_name: "React",
@@ -140,16 +145,10 @@ export const Skill_data = [
       height: 80,
     },
     {
-      skill_name: "Redux",
-      Image: "/redux.png",
-      width: 80,
-      height: 80,
-    },
-    {
-      skill_name: "React Query",
-      Image: "/reactquery.png",
-      width: 80,
-      height: 80,
+      skill_name: "Vercel",
+      Image: "/vercel-blanco.png",
+      width: 120,
+      height: 120,
     },
     {
       skill_name: "Type Script",
@@ -173,22 +172,10 @@ export const Skill_data = [
       height: 80,
     },
     {
-      skill_name: "Express js",
-      Image: "/express.png",
-      width: 80,
-      height: 80,
-    },
-    {
       skill_name: "Mongo db",
       Image: "/mongodb.png",
       width: 40,
       height: 40,
-    },
-    {
-      skill_name: "Fire base",
-      Image: "/Firebase.png",
-      width: 55,
-      height: 55,
     },
     {
       skill_name: "Postger SQL",
@@ -198,19 +185,19 @@ export const Skill_data = [
     },
     {
       skill_name: "My SQL",
-      Image: "/mysql.png",
+      Image: "/msql.png",
       width: 70,
       height: 70,
     },
     {
-      skill_name: "Prisma",
-      Image: "/prisma.webp",
+      skill_name: "Python",
+      Image: "/python.png",
       width: 70,
       height: 70,
     },
     {
-      skill_name: "Graphql",
-      Image: "/graphql.png",
+      skill_name: "Java",
+      Image: "/java.png",
       width: 80,
       height: 80,
     },
@@ -224,8 +211,8 @@ export const Skill_data = [
       height: 70,
     },
     {
-      skill_name: "Tauri",
-      Image: "/tauri.svg",
+      skill_name: "Pytest",
+      Image: "/Pytest.png",
       width: 70,
       height: 70,
     },
@@ -249,8 +236,8 @@ export const Skill_data = [
   
   export const Other_skill = [
     {
-      skill_name: "Go",
-      Image: "/go.png",
+      skill_name: "Git",
+      Image: "/gitwhite.png",
       width: 60,
       height: 60,
     },
