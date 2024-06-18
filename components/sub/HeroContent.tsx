@@ -9,6 +9,7 @@ import {
 } from "@/utils/motion";
 import { SparklesIcon } from "@heroicons/react/24/solid";
 import Image from "next/image";
+import Link from 'next/link'; // Link import is unused in this updated version
 
 const HeroContent = () => {
   return (
@@ -55,8 +56,10 @@ const HeroContent = () => {
           you&apos;d like to connect! or know more about my abilities!
         </motion.p>
         <motion.a
+          href="/Resume.pdf" // Linking directly to the Resume.docx in the public folder
           variants={slideInFromLeft(1)}
           className="py-2 button-primary text-center text-white cursor-pointer rounded-lg max-w-[200px]"
+          target="_blank" // Optional: opens the document in a new tab
         >
           Learn More!
         </motion.a>
