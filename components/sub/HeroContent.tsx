@@ -9,11 +9,11 @@ import {
 } from "@/utils/motion";
 import { SparklesIcon } from "@heroicons/react/24/solid";
 import Image from "next/image";
-import Link from 'next/link'; // Link import is unused in this updated version
 
 const HeroContent = () => {
   return (
     <motion.div
+      id="about-me" // Add the id here
       initial="hidden"
       animate="visible"
       className="flex flex-row items-center justify-center px-20 mt-40 w-full z-[20]"
@@ -56,10 +56,10 @@ const HeroContent = () => {
           you&apos;d like to connect! or know more about my abilities!
         </motion.p>
         <motion.a
-          href="/Resume.pdf" // Linking directly to the Resume.docx in the public folder
+          href="/Resume.pdf"
           variants={slideInFromLeft(1)}
           className="py-2 button-primary text-center text-white cursor-pointer rounded-lg max-w-[200px]"
-          target="_blank" // Optional: opens the document in a new tab
+          target="_blank"
         >
           Learn More!
         </motion.a>
