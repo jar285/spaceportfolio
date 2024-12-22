@@ -3,8 +3,6 @@
 @tailwind components;
 @tailwind utilities;
 
-
-
 .cursive {
   font-family: "Cedarville Cursive", cursive;
 }
@@ -64,8 +62,28 @@
   display: none;
 }
 
-
-
 html {
   scroll-behavior: smooth;
+}
+
+.transition-max-height {
+  transition: max-height 0.5s ease-in-out;
+}
+
+/* Footer Specific Styles */
+footer {
+  pointer-events: auto;
+  user-select: text;
+  z-index: 50;
+  position: relative;
+  width: 100%;
+}
+
+footer a {
+  text-decoration: none;
+  color: inherit;
+}
+
+footer a:hover {
+  text-decoration: underline;
 }
