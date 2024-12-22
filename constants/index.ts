@@ -96,7 +96,7 @@ export const Skill_data = [
     {
       name: "Linkedin",
       src: "/linkedin.svg",
-      url: "www.linkedin.com/in/jesus-adonis-rosario-vargas-371508255",
+      url: "https://www.linkedin.com/in/jesus-adonis-rosario-vargas-371508255/"
     },
     {
       name: "Github",
