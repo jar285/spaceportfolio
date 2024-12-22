@@ -15,6 +15,9 @@ const config: Config = {
       },
     },
   },
-  plugins: [],
+  plugins: [
+    require("@tailwindcss/line-clamp"), // Add the line-clamp plugin
+  ],
 };
+
 export default config;
